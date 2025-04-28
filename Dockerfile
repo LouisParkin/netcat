@@ -1,4 +1,4 @@
-FROM artifactory.tooling.stackstate.io/docker-virtual/opensuse/leap:latest
+FROM opensuse/leap:latest
 
 RUN zypper refresh && zypper install -y netcat
 
